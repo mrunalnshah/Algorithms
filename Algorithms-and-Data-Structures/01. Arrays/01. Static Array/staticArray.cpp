@@ -97,9 +97,7 @@ class myStaticArray {
   }
 
   // ...MODIFY...
-  void myModify(Type data, int index) { 
-    myArray[index] = data; 
-  }
+  void myModify(Type data, int index) { myArray[index] = data; }
 };
 
 // MAIN FUNCTION
