@@ -8,10 +8,10 @@
 #include <iostream>
 
 // Static Array Class with Methods
-template <class Type, int Num>
+template <class Type, int SizeOfArray>
 class myStaticArray {
   int top = -1;
-  Type myArray[Num];
+  Type myArray[SizeOfArray];
 
  public:
   void print() {
@@ -22,22 +22,23 @@ class myStaticArray {
 
   // ...INSERT...
   void myInsert(Type data) {
-    if (top < Num) {
+    if (top < SizeOfArray) {
       top++;
       myArray[top] = data;
     } else {
-      std::cout << "top is " << top << " and Size is " << Num << std::endl;
+      std::cout << "top is " << top << " and Size is " << SizeOfArray
+                << std::endl;
     }
   }
 
   void myInsert(Type data, int index) {
     if (top < index && !(top == index - 1)) {
-      std::cout << "top is " << top << " and Size is " << Num
+      std::cout << "top is " << top << " and Size is " << SizeOfArray
                 << " and Index is  " << index << std::endl;
     } else {
-      if (top < Num) {
+      if (top < SizeOfArray) {
         top++;
-        Type tempArray[Num];
+        Type tempArray[SizeOfArray];
 
         for (int i = 0; i <= top; i++) {
           if (i < index) {
@@ -53,7 +54,8 @@ class myStaticArray {
           myArray[i] = tempArray[i];
         }
       } else {
-        std::cout << "top is " << top << " and Size is " << Num << std::endl;
+        std::cout << "top is " << top << " and Size is " << SizeOfArray
+                  << std::endl;
       }
     }
   }
@@ -63,17 +65,18 @@ class myStaticArray {
     if (top != -1) {
       --top;
     } else {
-      std::cout << "top is " << top << " and Size is " << Num << std::endl;
+      std::cout << "top is " << top << " and Size is " << SizeOfArray
+                << std::endl;
     }
   }
 
   void myDelete(int index) {
     if (top < index) {
-      std::cout << "top is " << top << " and Size is " << Num
+      std::cout << "top is " << top << " and Size is " << SizeOfArray
                 << " and Index is  " << index << std::endl;
     } else {
       if (top != -1) {
-        Type tempArray[Num];
+        Type tempArray[SizeOfArray];
         for (int i = 0; i <= top; i++) {
           if (i < index) {
             tempArray[i] = myArray[i];
@@ -87,22 +90,23 @@ class myStaticArray {
           myArray[i] = tempArray[i];
         }
       } else {
-        std::cout << "top is " << top << " and Size is " << Num << std::endl;
+        std::cout << "top is " << top << " and Size is " << SizeOfArray
+                  << std::endl;
       }
     }
   }
 
   // ...MODIFY...
-  void myModify(Type data, int index) { myArray[index] = data; }
+  void myModify(Type data, int index) { 
+    myArray[index] = data; 
+  }
 };
 
-
-
-// MAIN FUNCTION 
+// MAIN FUNCTION
 int main() {
-  const int num = 5;
+  const int SizeOfArray = 5;
 
-  myStaticArray<char, num> myArray;
+  myStaticArray<char, SizeOfArray> myArray;
 
   std::cout << " INSERT " << std::endl;
   myArray.myInsert('a', 0);
