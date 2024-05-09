@@ -3,6 +3,9 @@
     Date    : 6th of May, 2024
 
     Details : Static Array Class with Insert, Delete and Modify Methods
+	
+	CONCEPT : 
+		Static Array have a fixed array size and is compile-time allocated.
 */
 
 #include <iostream>
