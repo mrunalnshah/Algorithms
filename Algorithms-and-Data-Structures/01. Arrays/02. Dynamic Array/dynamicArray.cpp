@@ -136,6 +136,15 @@ class dynamicArray {
     }
   }
 
+  void modify(int data, int index) {
+    if (index <= top) {
+      arr[index] = data;
+    } else {
+      std::cout << "\n\nIndex is " << index << " top is " << top
+                << " and capacity is " << capacity << std::endl;
+    }
+  }
+
   void print() {
     for (int i = 0; i <= top; i++) {
       std::cout << i << " = " << arr[i] << std::endl;
@@ -159,7 +168,8 @@ int main() {
     std::cout << " 2 for Pop at End " << std::endl;
     std::cout << " 3 for Push at Random " << std::endl;
     std::cout << " 4 for Pop at Random " << std::endl;
-    std::cout << " 5 for print " << std::endl;
+    std::cout << " 5 for Modify the value at index " << std::endl;
+    std::cout << " 6 for print " << std::endl;
     std::cout << " Anything else to exit..." << std::endl;
     std::cout << " ENTER : ";
     std::cin >> switchValue;
@@ -186,6 +196,13 @@ int main() {
         temp.pop_back(index);
         break;
       case 5:
+        std::cout << "Enter data to be Modified : ";
+        std::cin >> data;
+        std::cout << "Enter Index where data to be Modified : ";
+        std::cin >> index;
+        temp.modify(data, index);
+        break;
+      case 6:
         temp.print();
         break;
       default:
