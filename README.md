@@ -11,4 +11,4 @@ Contents :
 * [Arrays](https://github.com/mrunalnshah/Algorithms/tree/main/Algorithms-and-Data-Structures/01.%20Arrays)
    * [Static Arrays](https://github.com/mrunalnshah/Algorithms/tree/main/Algorithms-and-Data-Structures/01.%20Arrays/01.%20Static%20Array)
    * [Dynamic Arrays](https://github.com/mrunalnshah/Algorithms/tree/main/Algorithms-and-Data-Structures/01.%20Arrays/02.%20Dynamic%20Array)
-   * [Stacks]()
+   * [Stacks](https://github.com/mrunalnshah/Algorithms/tree/main/Algorithms-and-Data-Structures/01.%20Arrays/03.%20Stack)
