@@ -6,9 +6,9 @@ Algorithms
 ### 2. CLRS
 
 
-# Algorithms and Data Structures
+# [Algorithms and Data Structures](https://github.com/mrunalnshah/Algorithms/tree/main/Algorithms-and-Data-Structures)
 Contents :
 * [Arrays](https://github.com/mrunalnshah/Algorithms/tree/main/Algorithms-and-Data-Structures/01.%20Arrays)
-   * [Static Arrays]()
-   * [Dynamic Arrays]()
+   * [Static Arrays](https://github.com/mrunalnshah/Algorithms/tree/main/Algorithms-and-Data-Structures/01.%20Arrays/01.%20Static%20Array)
+   * [Dynamic Arrays](https://github.com/mrunalnshah/Algorithms/tree/main/Algorithms-and-Data-Structures/01.%20Arrays/02.%20Dynamic%20Array)
    * [Stacks]()
