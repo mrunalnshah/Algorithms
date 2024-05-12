@@ -12,3 +12,7 @@ Contents :
    * [Static Arrays](https://github.com/mrunalnshah/Algorithms/tree/main/Algorithms-and-Data-Structures/01.%20Arrays/01.%20Static%20Array)
    * [Dynamic Arrays](https://github.com/mrunalnshah/Algorithms/tree/main/Algorithms-and-Data-Structures/01.%20Arrays/02.%20Dynamic%20Array)
    * [Stacks](https://github.com/mrunalnshah/Algorithms/tree/main/Algorithms-and-Data-Structures/01.%20Arrays/03.%20Stack)
+* [Linked List](https://github.com/mrunalnshah/Algorithms/tree/main/Algorithms-and-Data-Structures/02.%20Linked_List)
+   * [Singly Linked List](https://github.com/mrunalnshah/Algorithms/tree/main/Algorithms-and-Data-Structures/02.%20Linked_List/01.%20Singly_Linked_List)
+   * [Doubly Linked List]()
+   * [Queue]()
