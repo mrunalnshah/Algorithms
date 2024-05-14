@@ -8,9 +8,9 @@
     Doubly Linked List is
         -> structure with a data and two address [one pointing to previous node
    and one to next node].
-        -> prevNode address points either null if last . or points to previous
+        -> prevNode address points either null if first/head . or points to previous
    node.
-        -> nextNode address points either null if last . or points to next node.
+        -> nextNode address points either null if last/tail . or points to next node.
         -> we store head and tail address, int totalNode data also for keeping
    track of the structure.
 
