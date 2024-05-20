@@ -19,7 +19,7 @@ Contents :
 * [Recursion](https://github.com/mrunalnshah/Algorithms/tree/main/Algorithms-and-Data-Structures/03.%20Recursion)
    * [Factorial](https://github.com/mrunalnshah/Algorithms/tree/main/Algorithms-and-Data-Structures/03.%20Recursion/01.%20Factorial)
    * [Fibonacci](https://github.com/mrunalnshah/Algorithms/tree/main/Algorithms-and-Data-Structures/03.%20Recursion/02.%20Fibonacci)
-* [Sorting]
+* [Sorting](https://github.com/mrunalnshah/Algorithms/tree/main/Algorithms-and-Data-Structures/04.%20Sorting)
    * [Insertion Sort](https://github.com/mrunalnshah/Algorithms/tree/main/Algorithms-and-Data-Structures/04.%20Sorting/01.%20Insertion_Sort)
    * [Merge Sort]()
    * [Quick Sort]()
