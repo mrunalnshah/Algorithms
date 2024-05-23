@@ -21,6 +21,6 @@ Contents :
    * [Fibonacci](https://github.com/mrunalnshah/Algorithms/tree/main/Algorithms-and-Data-Structures/03.%20Recursion/02.%20Fibonacci)
 * [Sorting](https://github.com/mrunalnshah/Algorithms/tree/main/Algorithms-and-Data-Structures/04.%20Sorting)
    * [Insertion Sort](https://github.com/mrunalnshah/Algorithms/tree/main/Algorithms-and-Data-Structures/04.%20Sorting/01.%20Insertion_Sort)
-   * [Merge Sort]()
+   * [Merge Sort](https://github.com/mrunalnshah/Algorithms/tree/main/Algorithms-and-Data-Structures/04.%20Sorting/02.%20Merge_Sort)
    * [Quick Sort]()
    * [Bucket Sort]()
