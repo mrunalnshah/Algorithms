@@ -8,4 +8,4 @@ Algorithms
 
 # [Algorithms and Data Structures](https://github.com/mrunalnshah/Algorithms/tree/main/Algorithms-and-Data-Structures)
 Contents :
-* [RAM](https://github.com/mrunalnshah/Algorithms/tree/main/Algorithms-and-Data-Structures/00.%20Ram)
+* [What is RAM ?](https://github.com/mrunalnshah/Algorithms/tree/main/Algorithms-and-Data-Structures/00.%20Ram)
