@@ -28,10 +28,10 @@
 
 
 
-        To Read at any index 		     --> O(1)
-        To Insert at the end of Static Array --> O(1)
-        To Remove at the end of Static Array --> O(1)
-        To Insert at any index               --> O(n)
+        To Read at any index					--> O(1)
+        To Insert at the end of Static Array 	--> O(1)
+        To Remove at the end of Static Array 	--> O(1)
+        To Insert at any index               	--> O(n)
                 {Worst case : insert at first position}
 */
 
