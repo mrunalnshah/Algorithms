@@ -9,13 +9,14 @@
    in RAM, it cannot be changed.
 
    Some Values:
-    topIndex starts from -1, -1 means empty.
+    1. topIndex starts from -1, -1 means empty.
     size is always topIndex - 1.
         example:
             size = 5
             topIndex can go 0,1,2,3,4 {total 5}
 
-
+    2. -911 in read function is just an error code. we can throw errors or can
+   print text also.
 
    We Implement:
                 1. read at any index
@@ -73,7 +74,7 @@ class staticArray {
     if (index <= topIndex && topIndex != -1) {
       return myArray[index];
     } else {
-      return -911;
+      return -911;  // -911 is just an Error code. you can throw errors also.
     }
   }
 
@@ -90,7 +91,7 @@ class staticArray {
 
   // Insert at end of the Array O(1)
   void insert(dataType data) {
-    if (topIndex < size) {
+    if (topIndex < size - 1) {
       topIndex++;
       myArray[topIndex] = data;
     } else {
