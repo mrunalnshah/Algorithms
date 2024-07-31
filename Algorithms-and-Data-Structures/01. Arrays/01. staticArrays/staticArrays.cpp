@@ -84,7 +84,7 @@ class staticArray {
       myArray[index] = data;
     } else {
       std::cout << "\nSomething went wrong...\nArray : \ntopIndex : "
-                << topIndex << "\nSize : " << size << "\nGiven Index " << index
+                << topIndex << "\nSize : " << size << "\nGiven Index :" << index
                 << std::endl;
     }
   }
@@ -129,13 +129,13 @@ class staticArray {
         }
       } else {
         std::cout << "\nSomething went wrong...\nArray : \ntopIndex : "
-                  << topIndex << "\nSize : " << size << "\nGiven Index "
-                  << index << std::endl;
+                  << topIndex << "\nSize : " << size
+                  << "\nGiven Index :" << index << std::endl;
       }
 
     } else {
       std::cout << "\nSomething went wrong...\nArray : \ntopIndex : "
-                << topIndex << "\nSize : " << size << "\nGiven Index " << index
+                << topIndex << "\nSize : " << size << "\nGiven Index :" << index
                 << std::endl;
     }
   }
@@ -175,7 +175,11 @@ class staticArray {
 };
 
 int main() {
-  staticArray<int> testStaticArray(10);
+  int arraySize;
+  std::cout << "Enter Array Size : ";
+  std::cin >> arraySize;
+
+  staticArray<int> testStaticArray(arraySize);
 
   int data;
   int index;
