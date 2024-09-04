@@ -1,6 +1,7 @@
 # Algorithms
 Data Structures and Algorithms
 
+[Sheets for Algorithms, Competitive Programming](https://docs.google.com/spreadsheets/d/10EmWLMx8Qx1onDtqhYAgraV2Vv462XN3lgajgXCVGH0/edit?usp=sharing)
 
 ## Content
 
