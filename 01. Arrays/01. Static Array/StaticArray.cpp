@@ -9,6 +9,7 @@
 
    Implementing this array, requires :
     1. topOfTheArray : Maintains the last index of element present in array.
+		[ -1 is not element present in the Array ]
     2. sizeOfArray   : keeps the size of Array.
     3. Array         : we need an Array of size x for our implementation.
 
@@ -21,7 +22,7 @@
     4. remove(index) [ O(n) ]: remove any index between 0 to topOfTheArray
     5. print()  [ O(n) ]: prints whole array
 
-    Look at code for more understanding.
+    Look at code for more understanding...
 
     ERROR CODE:
     void errorCode(int code);
