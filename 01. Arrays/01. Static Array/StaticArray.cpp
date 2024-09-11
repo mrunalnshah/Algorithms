@@ -110,7 +110,7 @@ class StaticArray {
     if (index < 0 || index > topOfTheArray) {
       return 3;
     }
-    for (int i = index; i <= topOfTheArray; i++) {
+    for (int i = index; i <= topOfTheArray - 1; i++) {
       arr[i] = arr[i + 1];
     }
     topOfTheArray--;
