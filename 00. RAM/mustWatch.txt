@@ -2,3 +2,8 @@
  2. Exploring How Computers Work ( https://www.youtube.com/playlist?list=PLFt_AvWsXl0dPhqVsKt1Ni_46ARyiCGSq )
  3. Why The First Computers Were Made Out Of Light Bulbs ( https://www.youtube.com/watch?v=FU_YFpfDqqA )
  4.  Transistors - The Invention That Changed The World  (https://www.youtube.com/watch?v=OwS9aTE2Go4)
+ 
+ 
+ Some Youtuber and Important Links
+ 1. Ben Eater : https://www.youtube.com/@BenEater
+ 2. NAND2Tetris : https://www.coursera.org/learn/build-a-computer
