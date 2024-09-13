@@ -1,58 +1,12 @@
 // AUTHOR : Mrunal Nirajkumar Shah
-// DATE   : 11 September 2024
+// DATE   : 13 September 2024
 
 /*
-    Dynamic Array
-    An continuous block of memory, called array with specified memory allocated
-   to it in the initial stage of creating array and then reallocating arrays
-   depending on required size is Dynamic Array. It has dynamic size memory,
-   which can be increased only.
+        Dynamic Array Implemented and modified for Stack Implementation.
 
-   1 2 3 4 5 6 7 8
-                                Size
-   Array 1 : 1                    1
-   Array 2 : 1 2                  2
-   Array 3 : 1 2 3 4              4
-   Array 4 : 1 2 3 4 5 6 7 8      8
-
-   8 >= 1 + 2 + 4
-   Amortized complexity.
-
-
-   Implementing this array, requires :
-    1. topOfTheArray : Maintains the last index of element present in array.
-                [ -1 is not element present in the Array ]
-    2. sizeOfArray   : keeps the latest size of Array.
-    3. Array         : we need an Array of size x for our implementation.
-    4. new Array     : When reassigning the array to meet size requirement, we
-   need to push all elements to new Array and then reassign new array to old
-   array.
-
-    Functions :
-    1. resize() [O(n)]  : reallocate the array to meet the size requirement.
-    2. insert(data) [ O(1) ] : insert data at the topOfTheArray + 1 index, if
-   space available.
-    3. insert(index,data) [ (O(n) ] : insert data at any index, from 0 to
-   topOfTheArray + 1.
-    4. remove() [ O(1) ]  : remove last index, if available.
-    5. remove(index) [ O(n) ]: remove any index between 0 to topOfTheArray
-    6. print()  [ O(n) ]: prints whole array
-
-    Look at code for more understanding...
-
-    ERROR CODE:
-    void errorCode(int code);
-
-    -1 --> Out of Memory
-    -2 --> It is breaking continuity of Array.
-     1  --> Array is Empty, top is -1
-     2  --> Index is not appropriate.
-     0 --> SUCCESS
-
-     By The Way we can use ENUM for more better Error part code writing.
-
-     Thanks for reading my code
-     Mrunal Nirajkumar Shah.
+        can look at :
+        https://github.com/mrunalnshah/Algorithms
+        for detailed Dynamic Array Implementation.
 */
 
 #include <iostream>
@@ -95,60 +49,6 @@ class DynamicArray {
     arr = newArr;
   }
 
- private:
-  // Insert data at the end of the array. [ O(1) ]
-  int insert(Typename data) {
-    if (topOfArray >= sizeOfArray - 1) {
-      resize();
-    }
-    topOfArray++;
-    arr[topOfArray] = data;
-
-    return 0;
-  }
-
-  // Insert data at any position in the array [ O(n) ]
-  int insert(Typename data, int index) {
-    if (topOfArray >= sizeOfArray - 1) {
-      resize();
-    }
-    if (index < 0 || index > topOfArray + 1) {
-      return -2;
-    }
-    for (int i = topOfArray; i >= index; i--) {
-      arr[i + 1] = arr[i];
-    }
-    topOfArray++;
-    arr[index] = data;
-    return 0;
-  }
-
-  // Remove data from the last index of array. [ O(1) ]
-  int remove() {
-    if (topOfArray == -1) {
-      return 1;
-    }
-    topOfArray--;
-    return 0;
-  }
-
-  // Remove data from any position between 0 to topOfTheArray [ O(n) ]
-  int remove(int index) {
-    if (topOfArray == -1) {
-      return 1;
-    }
-    if (index < 0 || index > topOfArray) {
-      return 2;
-    }
-
-    for (int i = index; i <= topOfArray - 1; i++) {
-      arr[i] = arr[i + 1];
-    }
-    topOfArray--;
-    return 0;
-  }
-
- public:
   // Print Whole Array [ O(n) ]
   int print() {
     if (topOfArray == -1) {
