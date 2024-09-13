@@ -11,5 +11,9 @@ Data Structures and Algorithms
    * [Static Array](https://github.com/mrunalnshah/Algorithms/blob/main/01.%20Arrays/01.%20Static%20Array/StaticArray.cpp)
    * [Dynamic Array](https://github.com/mrunalnshah/Algorithms/blob/main/01.%20Arrays/02.%20Dynamic%20Array/DynamicArray.cpp)
    * [Stack](https://github.com/mrunalnshah/Algorithms/tree/main/01.%20Arrays/03.%20Stack)
+3. [Linked List]
+   * [Singly Linked List]
+   * [Doubly Linked List]
+   * [Queue]
    
 ### CLRS
