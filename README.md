@@ -13,7 +13,7 @@ Data Structures and Algorithms
    * [Stack](https://github.com/mrunalnshah/Algorithms/tree/main/01.%20Arrays/03.%20Stack)
 3. [Linked List](https://github.com/mrunalnshah/Algorithms/tree/main/02.%20Linked%20List)
    * [Singly Linked List](https://github.com/mrunalnshah/Algorithms/blob/main/02.%20Linked%20List/01.%20Singly%20Linked%20List/SinglyLinkedList.cpp)
-   * [Doubly Linked List]
+   * [Doubly Linked List](https://github.com/mrunalnshah/Algorithms/blob/main/02.%20Linked%20List/02.%20Doubly%20Linked%20List/DoublyLinkedList.cpp)
    * [Queue]
    
 ### CLRS
