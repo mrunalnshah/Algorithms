@@ -6,8 +6,8 @@
     A Array is a contiguous block of data, and a Static Array is a fixed size
    array, which cannot be resized.
 
-    Once the static array is full, it cannot add new data into it with old data
-   being deleted.
+    Once the static array is full, it cannot add new data into it without old
+   data being deleted.
 
     Methods [Big O notation]:
     1. size [O(1)]
