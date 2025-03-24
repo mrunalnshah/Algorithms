@@ -28,6 +28,7 @@
    small after that point.
 
     Methods [Big O notation]:
+    1. resize [O(n)] {Ammortized Complexity}
     1. size [O(1)]
     2. count [O(1)]
     3. insert at end [O(1)]
