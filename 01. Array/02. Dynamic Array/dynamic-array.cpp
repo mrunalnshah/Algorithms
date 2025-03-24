@@ -13,7 +13,7 @@
 
     Elements to be added: {1,2,3,4,5,6}
     1: 1                    [Array Size = 1]
-    2: 1, 2                 [Array Size = 2] {Resized}
+    2: 1, 2                 [Array Size = 2]
     4: 1, 2, 3, 4           [Array Size = 4]
     8: 1, 2, 3, 4, 5, 6     [Array Size = 8]
 
