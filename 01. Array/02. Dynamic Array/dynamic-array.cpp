@@ -51,6 +51,7 @@ class DynamicArray {
   int array_size = 1;
   TypeName *array;
 
+  // resize the array.
   void resize() {
     array_size = array_size * 2;
     TypeName *new_array = new TypeName[array_size];
@@ -116,6 +117,8 @@ class DynamicArray {
     }
     return 0;
   }
+
+  // remove the data from end of array
   int remove() {
     if (top_of_array == -1) {
       return 2;
@@ -123,6 +126,8 @@ class DynamicArray {
     top_of_array--;
     return 0;
   }
+
+  // remove data from any part of the array
   int remove(int index) {
     if (top_of_array == -1) {
       return 2;
@@ -133,11 +138,15 @@ class DynamicArray {
     top_of_array--;
     return 0;
   }
+
+  // prints whole array
   void printArray() {
     for (int i = 0; i <= top_of_array; i++) {
       std::cout << "Data : " << array[i] << " --> Index: " << i << std::endl;
     }
   }
+
+  // prints the errorcode got from methods runned.
   void errorCode(int code) {
     if (code == 0) {
       std::cout << "Success" << std::endl;
