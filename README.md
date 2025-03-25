@@ -1,7 +1,7 @@
 # Algorithms
 Data Structures and Algorithms
 
-[Google Sheet for Algorithms, LeetCode Problems, Codeforces Problems, and More...](https://docs.google.com/spreadsheets/d/10EmWLMx8Qx1onDtqhYAgraV2Vv462XN3lgajgXCVGH0/edit?usp=sharing)
+[My Google Sheet for Algorithms,and Competitive Programming]https://docs.google.com/spreadsheets/d/10EmWLMx8Qx1onDtqhYAgraV2Vv462XN3lgajgXCVGH0/edit?usp=sharing)
 
 ## Content
 
