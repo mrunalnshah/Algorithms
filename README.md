@@ -7,9 +7,9 @@ Data Structures and Algorithms
 
 ### Algorithms and Data Structures
 1. [What is RAM ?](https://github.com/mrunalnshah/Algorithms/tree/main/00.%20RAM)
-2. [Arrays](https://github.com/mrunalnshah/Algorithms/tree/main/01.%20Array)
-    - [Static Array](https://github.com/mrunalnshah/Algorithms/blob/main/01.%20Array/01.%20Static%20Array/static-array.cpp)
-    - [Dynamic Array](https://github.com/mrunalnshah/Algorithms/blob/main/01.%20Array/02.%20Dynamic%20Array/dynamic-array.cpp)
-    - [Stack](https://github.com/mrunalnshah/Algorithms/tree/main/01.%20Array/03.%20Stack)
+2. [Arrays](https://github.com/mrunalnshah/Algorithms/tree/main/01.%20Arrays)
+    - [Static Array](https://github.com/mrunalnshah/Algorithms/blob/main/01.%20Arrays/01.%20Static%20Array/StaticArray.cpp)
+    - [Dynamic Array]()
+    - [Stack]()
    
 ### CLRS
