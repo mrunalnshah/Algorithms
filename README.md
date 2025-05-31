@@ -14,4 +14,4 @@ Data Structures and Algorithms
       - [Vector](https://github.com/mrunalnshah/Algorithms/blob/main/01.%20Arrays/02.%20Dynamic%20Array/vector.h)
     - [Stack](https://github.com/mrunalnshah/Algorithms/blob/main/01.%20Arrays/03.%20Stack/Stack.cpp)
    
-### CLRS
+
