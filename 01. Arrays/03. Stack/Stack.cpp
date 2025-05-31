@@ -60,7 +60,7 @@ class Stack {
     return 0;
   }
 
-  // Get The Data in the Top of Stack
+  // Get The Data in the Top of Stack {O(1)}
   TypeName peek() {
     if (myArray.get_top() == -1) {
       throw std::out_of_range("Array is Empty");
