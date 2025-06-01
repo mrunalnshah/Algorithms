@@ -13,5 +13,7 @@ Data Structures and Algorithms
       - [Dynamic Array](https://github.com/mrunalnshah/Algorithms/blob/main/01.%20Arrays/02.%20Dynamic%20Array/DynamicArray.cpp)
       - [Vector](https://github.com/mrunalnshah/Algorithms/blob/main/01.%20Arrays/02.%20Dynamic%20Array/vector.h)
     - [Stack](https://github.com/mrunalnshah/Algorithms/blob/main/01.%20Arrays/03.%20Stack/Stack.cpp)
-   
+3. [Linked Lists](https://github.com/mrunalnshah/Algorithms/tree/main/02.%20Linked%20Lists)
+    - [Singly Linked List](https://github.com/mrunalnshah/Algorithms/blob/main/02.%20Linked%20Lists/01.%20Singly%20Linked%20List/SinglyLinkedList.cpp)
+4.    
 
