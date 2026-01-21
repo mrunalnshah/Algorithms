@@ -17,7 +17,7 @@ Google Sheet: [https://docs.google.com/spreadsheets/d/10EmWLMx8Qx1onDtqhYAgraV2V
 
 ### Content
 1. [What is a Bit?](https://github.com/mrunalnshah/Algorithms/tree/main/00_Bits-and-Computers)
-    - [Notes](https://github.com/mrunalnshah/Algorithms/blob/main/00_Bits-and-Computers/01.Bits.pdf)
+    - [PPT](https://github.com/mrunalnshah/Algorithms/blob/main/00_Bits-and-Computers/01.Bits.pdf)
     - [Python Code](https://github.com/mrunalnshah/Algorithms/blob/main/00_Bits-and-Computers/Code/python/bits.py)
     - CodingArena
         - LeetCode 191: Number of 1 Bits
