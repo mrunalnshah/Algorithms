@@ -9,6 +9,8 @@ Use it Liberally, \
 Mrunal.
 
 ---
+### Notes
+Website: [https://mrunalnshah.github.io/algorithms-dg/](https://mrunalnshah.github.io/algorithms-dg/)
 
 ### Organized Sheet for Algorithms + Coding Arena
 Google Sheet: [https://docs.google.com/spreadsheets/d/10EmWLMx8Qx1onDtqhYAgraV2Vv462XN3lgajgXCVGH0/edit?usp=sharing](https://docs.google.com/spreadsheets/d/10EmWLMx8Qx1onDtqhYAgraV2Vv462XN3lgajgXCVGH0/edit?usp=sharing)
