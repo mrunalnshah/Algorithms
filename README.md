@@ -19,9 +19,9 @@ Google Sheet: [https://docs.google.com/spreadsheets/d/10EmWLMx8Qx1onDtqhYAgraV2V
 1. [What is a Bit?](https://github.com/mrunalnshah/Algorithms/tree/main/00_Bits-and-Computers)
     - [PPT](https://github.com/mrunalnshah/Algorithms/blob/main/00_Bits-and-Computers/01.Bits.pdf)
     - [Python Code](https://github.com/mrunalnshah/Algorithms/blob/main/00_Bits-and-Computers/Code/python/bits.py)
-    - CodingArena
-        - LeetCode 191: Number of 1 Bits
-        - LeetCode 338: Counting Bits
-        - LeetCode 190: Reverse Bits
+    - [CodingArena](https://github.com/mrunalnshah/Algorithms/tree/main/00_Bits-and-Computers/Arena)
+        - [LeetCode 191: Number of 1 Bits](https://github.com/mrunalnshah/Algorithms/tree/main/00_Bits-and-Computers/Arena/0191_Number-of-1-Bits)
+        - [LeetCode 338: Counting Bits](https://github.com/mrunalnshah/Algorithms/tree/main/00_Bits-and-Computers/Arena/0338_Counting-Bits)
+        - [LeetCode 190: Reverse Bits]()
 
 2. 
