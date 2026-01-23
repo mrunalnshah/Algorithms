@@ -16,14 +16,6 @@ Additional Resources:
 
 class Solution:
     def hammingWeight(self, n: int) -> int:
-        """
-        The Hamming weight of a binary string or number is the count of its nonzero bits, which typically corresponds to the number of '1's in its binary representation. 
-        
-        :param n: a number
-        :type n: int
-        :return: count of set bits in number
-        :rtype: int
-        """
         return bin(n).count('1')
 
 
