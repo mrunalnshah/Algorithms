@@ -11,15 +11,14 @@ Space Complexity: O(1)
 
 class Solution:
     def reverseBits(self, n: int) -> int:   
-        n &= 0xFFFFFFFF
-
-        r = 0
+        result = 0
         
         for _ in range(32):
-            r = (r << 1) | (n & 1)
+            result = result << 1
+            result += (n & 1)
             n = n >> 1
 
-        return r
+        return result
 
 def main():
     solve = Solution()
