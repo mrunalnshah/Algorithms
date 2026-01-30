@@ -16,8 +16,8 @@ Website: [https://mrunalnshah.github.io/algorithms-dg/](https://mrunalnshah.gith
 Google Sheet: [https://docs.google.com/spreadsheets/d/10EmWLMx8Qx1onDtqhYAgraV2Vv462XN3lgajgXCVGH0/edit?usp=sharing](https://docs.google.com/spreadsheets/d/10EmWLMx8Qx1onDtqhYAgraV2Vv462XN3lgajgXCVGH0/edit?usp=sharing)
 
 ### Coding Arena
-1. LeetCode
-2. Euler
+1. [LeetCode](https://github.com/mrunalnshah/Algorithms/tree/main/CodingArena/LeetCode)
+2. [Euler](https://github.com/mrunalnshah/Algorithms/tree/main/CodingArena/ProjectEuler)
 
 ### CoreDSA Content
 1. [What is a Bit?](https://github.com/mrunalnshah/Algorithms/tree/main/CoreDSA/00_Bits-and-Computers)
