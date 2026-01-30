@@ -6,8 +6,6 @@ Author: Mrunal Nirajkumar Shah
 Date  : 30th January, 2026
 """
 
-import math
-
 class Solve():
     @staticmethod
     def odd_square_sum(n=977000):
