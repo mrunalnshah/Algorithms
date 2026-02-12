@@ -4,7 +4,7 @@ Date  : 12th February, 2026
 
 LeetCode: 128. Longest Consecutive Sequence
 
-[BEST SOLUTION - SETS]
+[DICT- HASHMAP (Abit unoptimized)]
 Solution Description:
 Time Complexity: O(n)
 Space Complexity: O(n)

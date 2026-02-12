@@ -4,7 +4,7 @@ Date  : 12th February, 2026
 
 LeetCode: 128. Longest Consecutive Sequence
 
-[DICT- HASHMAP (Abit unoptimized)]
+[BEST SOLUTION - SETS]
 Solution Description:
 Time Complexity: O(n)
 Space Complexity: O(n)
@@ -14,10 +14,7 @@ from typing import List
 
 class Solution:
     def longestConsecutive(self, nums: List[int]) -> int:
-        memory = set()
-
-        for num in nums:
-           memory.add(num)
+        memory = set(nums)
 
         consecutive, max_consecutive = 0, 0
         for value in memory:
