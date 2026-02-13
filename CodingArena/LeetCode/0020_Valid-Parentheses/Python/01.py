@@ -26,7 +26,8 @@ class Solution:
                     if len(stack) == 0:
                         return False
                     
-                    if (char == ")" and stack.pop() == "(") or (char == "}" and stack.pop() == "{") or (char == "]" and stack.pop() == "["):
+                    closing_paren = stack.pop()
+                    if (char == ")" and closing_paren == "(") or (char == "}" and closing_paren == "{") or (char == "]" and closing_paren == "["):
                         continue
                     else:
                         return False
