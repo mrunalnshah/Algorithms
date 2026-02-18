@@ -8,7 +8,7 @@ Solution Description:
 Time Complexity: O(n^2) ~ better than first two solutions (01.py and 02.py)
 Space Complexity: O(2 * n) = O(n) ; n is number of temperature values
 
-Remember:
+Remember, ITS A MONOTONIC DECREASING STACK PROBLEM (not stricly decreasing == are allowed):
 Why this works?
 My assumption was wrong. If 
 
@@ -24,10 +24,6 @@ class Solution:
         answer = [0] *  len(temperatures)
 
         for i, temperature in enumerate(temperatures):
-            if stack == []:
-                stack.append(i)
-                continue
-
             while stack and temperature > temperatures[stack[-1]]:
                 answer[stack[-1]] = i - stack[-1]
 
