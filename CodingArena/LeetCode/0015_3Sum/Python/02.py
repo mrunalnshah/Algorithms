@@ -4,7 +4,6 @@ Date  : 24th February, 2026
 
 LeetCode: 15. 3Sum
 
-Time Limit Exceed
 Solution Description:
 Time Complexity: O(n^2)
 Space Complexity: O(n)
