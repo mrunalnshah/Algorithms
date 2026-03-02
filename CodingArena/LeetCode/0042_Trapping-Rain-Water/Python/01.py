@@ -4,6 +4,7 @@ Date  : 1st March, 2026
 
 LeetCode: 42. Trapping Rain Water
 
+[STACK APPROACH]
 Solution Description:
 Time Complexity: O(n)
 Space Complexity: O(n)
