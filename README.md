@@ -1,5 +1,5 @@
 # Algorithms
-My Implementations of DSA. Code (Python, C, Rust) + Notes
+My Implementations of DSA. Code (Python) + Notes
 
 ---
 
