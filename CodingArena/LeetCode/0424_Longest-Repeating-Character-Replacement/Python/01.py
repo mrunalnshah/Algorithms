@@ -12,23 +12,22 @@ Space Complexity: O(n)
 
 class Solution:
     def characterReplacement(self, s: str, k: int) -> int:
-        unique_char = set(s)
-        max_length = 0
-
-        size = len(s)
-        
-        for char in unique_char:
+        max_replacement = 0
+      
+        for char in set(s):
             i = 0
             stack = []
             replacement_count = k
             
-            while i < size:
-                if s[i] != char:
+            while i < len(s):
+                if s[i] == char:
+                    stack.append(s[i])
+                else:
                     if replacement_count > 0:
                         stack.append(s[i])
                         replacement_count -= 1
                     else:
-                        max_length = max(max_length, len(stack))
+                        max_replacement = max(max_replacement, len(stack))
                         
                         if k == 0:
                             stack.clear()
@@ -36,20 +35,14 @@ class Solution:
                         while stack and replacement_count == 0:
                             left_char = stack.pop(0)
                             if left_char != char:
-                                replacement_count += 1
-                                break
-                        
-                        if replacement_count > 0:
-                            stack.append(s[i])
-                            replacement_count -= 1                        
-                else:
-                    stack.append(s[i])
+                                stack.append(s[i])
+                                break                                    
 
                 i += 1
             
-            max_length = max(max_length, len(stack))
+            max_replacement = max(max_replacement, len(stack))
 
-        return max_length
+        return max_replacement
 
 
 
