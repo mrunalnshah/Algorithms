@@ -1,13 +1,13 @@
 """
 Author: Mrunal Nirajkumar Shah
-Date  : 19th March, 2026
+Date  : 22th March, 2026
 
 LeetCode: 567. Permutation in String
 
 Time Limit Exceeded
 Solution Description:
-Time Complexity: O(n)
-Space Complexity: O(n)
+Time Complexity: O(n^2 ~ O(n))
+Space Complexity: O(n) for stack and checker
 """
 
 class Solution:
