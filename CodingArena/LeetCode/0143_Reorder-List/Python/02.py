@@ -5,7 +5,7 @@ Date  : 28th March, 2026
 LeetCode: 143. Reorder List
 
 Solution Description:
-Time Complexity: O(n^2)  
+Time Complexity: O(n)  
 Space Complexity: O(1)
 """
 
@@ -45,7 +45,7 @@ class Solution:
 
         first_half = head
         second_half = prevNode
-        
+
         # Merge two halfs
         while second_half:
             temp1 = first_half.next
