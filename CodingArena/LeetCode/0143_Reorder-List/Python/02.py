@@ -22,36 +22,41 @@ class Solution:
         """
         Do not return anything, modify head in-place instead.
         """
-        count = 0
-
-        curNode = head
-        while curNode:
-            count += 1
-
-            curNode = curNode.next
         
-        curNode = head
-        while count > 1:
-            nextNode = curNode.next
-            
-            prevNode = None
-            counterNode = curNode
+        slow = head
+        fast = head.next
 
-            while counterNode.next:
-                prevNode = counterNode
-                counterNode = counterNode.next
+        while fast and fast.next:
+            slow = slow.next
+            fast = fast.next.next
 
-            if prevNode:
-                prevNode.next = None
+        second_half = slow.next
+        slow.next = None
 
-            curNode.next = counterNode
-            counterNode.next = nextNode
+        prevNode = None
+    
+        # Reverse the second half
+        while second_half:
+            temp = second_half.next
 
-            curNode = nextNode
+            second_half.next = prevNode
+            prevNode = second_half
+            second_half = temp
 
-            count -= 2
+        first_half = head
+        second_half = prevNode
+        
+        # Merge two halfs
+        while second_half:
+            temp1 = first_half.next
+            temp2 = second_half.next
 
-        curNode.next = None
+            first_half.next = second_half
+            second_half.next = temp1
+
+            first_half = temp1
+            second_half = temp2
+        
 
 def main():
     # Test Case 1
