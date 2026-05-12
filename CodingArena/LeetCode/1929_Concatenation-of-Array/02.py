@@ -1,5 +1,3 @@
-from typing import List
-
 """
 Problem: 1929. Concatenation of Array
 Link: https://leetcode.com/problems/concatenation-of-array/
@@ -12,6 +10,8 @@ Space Complexity: O(2 * n) ~ O(n)
 
 PYTHONIC WAY
 """
+from typing import List
+
 
 class Solution:
     """

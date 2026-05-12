@@ -1,5 +1,3 @@
-from typing import List
-
 """
 Problem: 1929. Concatenation of Array
 Link: https://leetcode.com/problems/concatenation-of-array/
@@ -10,6 +8,8 @@ Date: 11 May, 2026
 Time Complexity: O(m) where m is size of nums.
 Space Complexity: O(2 * n) ~ O(n)
 """
+from typing import List
+
 
 class Solution:
     """
