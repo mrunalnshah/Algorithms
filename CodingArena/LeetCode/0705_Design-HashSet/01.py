@@ -13,7 +13,7 @@ from typing import List
 
 class MyHashSet:
     """
-    Implementation of Hash Map
+    Implementation of Hash Set
     """
     def __init__(self):
         """
