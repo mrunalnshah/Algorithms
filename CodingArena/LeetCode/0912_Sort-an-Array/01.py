@@ -5,7 +5,7 @@ Link: https://leetcode.com/problems/sort-an-array/
 Author: Mrunal Nirajkumar Shah
 Date: 20 May, 2026
 
-Time Complexity: O(n)
+Time Complexity: O(n + 100001) where n is length of nums and 100001 is the iteration to build a new array from count_array.
 Space Complexity: O (100001 + m) where 100001 is Contraint Defined and m is the size of the unique values in nums.
 
 COUNT SORT
