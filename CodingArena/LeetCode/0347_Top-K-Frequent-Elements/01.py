@@ -5,9 +5,9 @@ Link: https://leetcode.com/problems/top-k-frequent-elements/
 Author: Mrunal Nirajkumar Shah
 Date: 21 May, 2026
 
-Time Complexity: O(n + m log m)
+Time Complexity: O(n + m log m + k)
 Space Complexity: O(m)
-where n is the total number of elements, and m is the number of unique elements
+where n is the total number of elements, and m is the number of unique elements and k is top-k-frequency
 """
 
 from typing import List
@@ -27,14 +27,17 @@ class Solution:
         """
         hash_map = {}
 
+        # TC: O(n)
         for num in nums:
             if num in hash_map:
                 hash_map[num] += 1
             else:
                 hash_map[num] = 1
-                
-        sorted_hash_map = sorted(hash_map.items(), key=lambda item: item[1], reverse=True)
 
+        # TC: O(m log m)  
+        sorted_hash_map = sorted(hash_map.items(), key=lambda item: item[1], reverse=True) # O(n log n)
+
+        # O (k)
         res = []
         for i in range(k):
             res.append(sorted_hash_map[i][0])
